@@ -1,0 +1,639 @@
+/* Diseño para todas las Páginas */
+
+*, *:after, *:before{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+
+    width: 100%;
+
+}
+
+body{
+
+    width: 100vh;
+    background-color: #ff9800;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+
+}
+
+a{
+
+    text-decoration: none;
+
+}
+
+a,
+.btn-primary,
+.art__location-title,
+.art__location-input,
+.legal a,
+.legal-legend p {
+
+    color: #000;
+
+}
+
+/* Fin del Diseño para Todas las Páginas */
+
+
+
+/* Diseño para el Index */
+
+.mb-3{
+
+    margin-bottom: 0 !important;
+
+}
+
+.navbar-collapse,
+.navbar-brand {
+
+    display: flex;
+    font-size: 1.5rem !important;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+
+}
+
+.grid{
+
+    background-color: #4161e1;
+
+}
+
+.taquito-logo{
+
+    width: 5rem;
+
+}
+
+.navbar-brand{
+
+    margin-left: 1rem;
+
+}
+
+.navbar-collapse{
+
+    font-size: 1.2rem;
+    justify-content: center;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.nav-link:hover{
+
+    background-color: #ff9800;
+    color: #ffffff !important;
+    transition: .3s;
+
+}
+
+.nav-shop{
+
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-right: .5rem;
+
+}
+
+.m-750{
+
+    display: none;
+
+}
+
+/* Fin del Diseño para todas las Páginas */
+
+
+
+/* Diseño para el Index */
+
+.pre1{
+
+    background-image: url(../assets/imagenes/presentacion.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 50vw 100%;
+    height: 35.2rem;
+
+}
+
+.con1 h1,
+.con2 h1,
+.con3 h1 {
+
+    font-weight: 1000;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.con1 a,
+.con2 a,
+.con3 a {
+
+    color: #00098a;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+
+}
+
+.pre2{
+
+    background-image: url(../assets/imagenes/suadero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50vw 100%;
+    height: 32.5rem;
+
+}
+
+.pre3{
+
+    background-image: url(../assets/imagenes/pastor.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 50vw 100%;
+    height: 35.2rem;
+
+}
+
+/* Fin del Diseño para el Index */
+
+
+/* Diseño para la Página de Productos */
+
+.grid{
+
+    background-color: #ff9800;
+    margin: 8rem 0 8rem 0;
+
+}
+
+.mod-prod{
+
+    margin-bottom: 5rem;
+
+}
+
+.s-m-p1,
+.s-m-p2 {
+
+    display: none;
+
+}
+
+.card{
+
+    background-color: #f57c00;
+    box-shadow: 0 0 20px #f57c00;
+
+}
+
+.card-body{
+
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.card-body h5{
+
+    font-size: 2rem;
+
+}
+
+.card-body p{
+
+    font-size: 1.2rem;
+
+}
+
+.card-img-top{
+
+    height: 50%;
+
+}
+
+.btn-primary{
+
+    background-color: #f57c00;
+    border-color: #f57c00;
+
+}
+
+.btn-primary:hover{
+
+    background-color: #ff9800;
+    border-color: #ffffff;
+
+}
+
+/* Fin del Diseño para la Página de Productos */
+
+
+/* Diseño para la Página de Nosotros */
+
+.container-sm{
+
+    background-color: #ff850b;
+    box-shadow: 0 0 2rem #f57c00;
+    border-radius: 3rem;
+
+}
+
+.car0-mod{
+
+    margin: 4rem 0 4rem 0;
+
+}
+
+.img-fluid{
+
+    height: 29rem;
+
+}
+
+.car1-mod h5,
+.car2-mod h5,
+.car3-mod h5,
+.car4-mod h5 {
+
+    font-size: 2.7rem;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.car1-mod p,
+.car2-mod p,
+.car3-mod p,
+.car4-mod p {
+
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+/* Diseño para la Página de Ubicación */
+
+.art-location{
+
+    background-color: #ff9800;
+    border-radius: 0;
+    box-shadow: none;
+
+}
+
+.form-control{
+
+    display: inline-block !important;
+    width: auto !important;
+
+}
+
+.art__location-title{
+
+    font-size: 4rem;
+    font-family: 'Bebas Neue', cursive;
+    margin: 4rem 0 4rem 0;
+
+}
+
+.art__location-input{
+
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.location-btn{
+
+    font-size: 1.4rem;
+
+}
+
+.art-location-2{
+
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+
+}
+
+.art-location-2-modify{
+
+    display: none;
+
+}
+
+.section-location{
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* Fin del Diseño para la Página de Ubicación */
+
+
+/* Diseño para la Página de Contacto */
+
+.art-contact{
+
+    margin-top: 10rem;
+    padding: 2rem 2rem 2rem 2rem;
+
+}
+
+.art-contact form{
+
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.input-modify,
+.art-contact form div textarea {
+
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000000;
+
+}
+
+/* Fin del Diseño para la Página de Contacto */
+
+
+/* Diseño para todas las Páginas */
+
+footer{
+
+    background-color: #f57c00;
+    margin-top: auto;
+    bottom: 0;
+    z-index: 2;
+
+}
+
+.sn i{
+
+    color: #00098a;
+    font-size: 2.5rem;
+    margin: 3rem 0 3rem 0;
+
+}
+
+.legal a{
+
+    font-size: 1.8rem;
+    font-family: 'Big Shoulders Display', cursive;
+    text-decoration: none;
+    margin-bottom: 3rem;
+
+}
+
+.legal-legend p{
+
+    font-size: 1.3rem;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 0;
+
+}
+
+.legend-p2{
+
+    margin-bottom: 1rem !important;
+
+}
+
+/* Fin del Diseño para Todas las Páginas */
+
+/* Medias para el Responsive */
+
+@media screen and (min-width: 600px) {
+    
+    .navbar > .container-fluid, .navbar > .container-sm{
+
+        justify-content: space-evenly;
+
+    }
+
+}
+
+@media screen and (max-width: 885px){
+ 
+    .s-m-p0{
+
+        display: none;
+
+    }
+
+    .s-m-p1{
+
+        display: unset;
+
+    }
+
+    .legal-legend p{
+
+        font-size: 1rem;
+
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    header{
+
+        width: 100vw;
+
+    }
+    
+    .navbar > .container-fluid, .navbar > .container-sm{
+
+        justify-content: space-between;
+
+    }
+
+    .navbar-brand{
+
+        display: none;
+
+    }
+
+    .not-m{
+
+        display: none;
+
+    }
+
+    .m-750{
+
+        display: flex;
+
+    }
+
+    body{
+
+        width: 100vw;
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+
+    }
+
+    .pre1-1{
+
+        background-image: url(../assets/imagenes/presentacion.jpg);
+
+    }
+
+    .pre1-1, 
+    .pre2-1, 
+    .pre3-1 {
+
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: 100vw 100%;
+        width: 100vw;
+        height: 21rem;
+
+    }
+
+    .con1-1,
+    .con2-1,
+    .con3-1 {
+
+        width: 100vw;
+        height: 50vh;
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+    .con1-1 h1,
+    .con2-1 h1,
+    .con3-1 h1 {
+
+        color: #000;
+        font-weight: 1000;
+        font-size: 2.5rem;
+
+    }
+
+    .con1-1 a,
+    .con2-1 a,
+    .con3-1 a {
+
+        color: #00098a;
+        font-weight: 700;
+        font-size: 1.6rem;
+
+    }
+
+    .pre2-1{
+
+        background-image: url(../assets/imagenes/suadero.jpg);
+
+    }
+
+    .pre3-1{
+
+        background-image: url(../assets/imagenes/pastor.jpg);
+
+    }
+
+    .prod-1,
+    .prod-2, 
+    .prod-3 {
+
+        background-color: #f57c00;
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .s-m-p1{
+
+        display: none;
+
+    }
+
+    .s-m-p2{
+
+        display: unset;
+
+    }
+
+    .art-location-2{
+
+        display: none;
+
+    }
+
+    .form-control{
+
+        width: 75% !important;
+
+    }
+
+    .art__location-title{
+
+        font-size: 2rem;
+
+    }
+
+    .art-location-2-modify{
+
+        display: unset;
+
+    }
+
+    footer{
+
+        width: 100vw !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+    }
+
+    .sn i{
+
+        font-size: 1.5rem;
+
+    }
+
+    .legal a{
+
+        font-size: 1.3rem;
+
+    }
+
+    .legal-legend p{
+
+        font-size: .5rem;
+
+    }
+
+}
+
+/* Fin de las Medias para el Responsive */
