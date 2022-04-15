@@ -43,12 +43,6 @@ a,
 
 }
 
-/* Fin del Diseño para Todas las Páginas */
-
-
-
-/* Diseño para el Index */
-
 .mb-3{
 
     margin-bottom: 0 !important;
@@ -126,7 +120,7 @@ a,
 
 .pre1{
 
-    background-image: url(../assets/imagenes/presentacion.jpg);
+    background-image: url(../imagenes/presentacion.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 50vw 100%;
@@ -157,7 +151,7 @@ a,
 
 .pre2{
 
-    background-image: url(../assets/imagenes/suadero.jpg);
+    background-image: url(../imagenes/suadero.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right;
@@ -168,7 +162,7 @@ a,
 
 .pre3{
 
-    background-image: url(../assets/imagenes/pastor.jpg);
+    background-image: url(../imagenes/pastor.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 50vw 100%;
@@ -291,6 +285,10 @@ a,
 
 }
 
+/* Fin del Diseño para la Página de Nosotros*/
+
+
+
 /* Diseño para la Página de Ubicación */
 
 .art-location{
@@ -357,6 +355,7 @@ a,
 /* Fin del Diseño para la Página de Ubicación */
 
 
+
 /* Diseño para la Página de Contacto */
 
 .art-contact{
@@ -382,6 +381,7 @@ a,
 }
 
 /* Fin del Diseño para la Página de Contacto */
+
 
 
 /* Diseño para todas las Páginas */
@@ -427,6 +427,8 @@ footer{
 }
 
 /* Fin del Diseño para Todas las Páginas */
+
+
 
 /* Medias para el Responsive */
 
@@ -504,7 +506,7 @@ footer{
 
     .pre1-1{
 
-        background-image: url(../assets/imagenes/presentacion.jpg);
+        background-image: url(../imagenes/presentacion.jpg);
 
     }
 
@@ -552,13 +554,13 @@ footer{
 
     .pre2-1{
 
-        background-image: url(../assets/imagenes/suadero.jpg);
+        background-image: url(../imagenes/suadero.jpg);
 
     }
 
     .pre3-1{
 
-        background-image: url(../assets/imagenes/pastor.jpg);
+        background-image: url(../imagenes/pastor.jpg);
 
     }
 
